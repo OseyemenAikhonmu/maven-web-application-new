@@ -18,13 +18,13 @@
 	</organization>
 
 	<properties>
-		<jdk.version>17</jdk.version>
+		<jdk.version>1.8</jdk.version>
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http:54.224.25.204:9000/</sonar.host.url> 
-		<sonar.login>Dan</sonar.login>
-		<sonar.password>1234OSE1234</sonar.password> 
+		<sonar.host.url>http:172.31.63.230:9000/</sonar.host.url> 
+		<sonar.login>Daniel</sonar.login>
+		<sonar.password>admin123</sonar.password> 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
@@ -83,14 +83,13 @@
 		</dependency>
 		
 		<!-- provided dependencies -->
-<!--
+
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>javax.servlet-api</artifactId>
 			<version>3.1.0</version>
 			<scope>provided</scope>
 		</dependency>	
--->		
 	</dependencies>	
 
 	<distributionManagement>
@@ -115,21 +114,13 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.8.1</version>
+				<version>3.3</version>
 				<configuration>
 					<source>${jdk.version}</source>
 					<target>${jdk.version}</target>
 				</configuration>
 			</plugin>
 
-                       <plugin>
-                               <groupId>org.sonarsource.scanner.maven</groupId>
-                               <artifactId>sonar-maven-plugin</artifactId>
-                               <version>3.9.1.2184</version>
-                      </plugin>
-
-			
-			
 			<plugin>
 				<groupId>org.eclipse.jetty</groupId>
 				<artifactId>jetty-maven-plugin</artifactId>
@@ -145,7 +136,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-eclipse-plugin</artifactId>
-				<version>3.8.1</version>
+				<version>2.9</version>
 				<configuration>
 					<downloadSources>true</downloadSources>
 					<downloadJavadocs>true</downloadJavadocs>
