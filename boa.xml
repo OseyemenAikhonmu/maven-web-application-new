@@ -92,18 +92,18 @@
 		</dependency>
 		-->
 	</dependencies>
-	http://34.224.15.51:8081/repository/boa2-release/
+	
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://http://34.224.15.51:8081/repository/boa2-release//</url>
+	      <url>http://172.31.51.28:8081/repository/ebay-bts-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://http://34.224.15.51:8081/repository/boa2-snapshot/</url>
+	      <url>http://172.31.51.28:8081/repository/ebay-bts-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
