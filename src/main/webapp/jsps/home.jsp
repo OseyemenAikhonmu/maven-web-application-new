@@ -9,11 +9,11 @@
 </head>
 </head>
 <body>
-<h1 align="center">Welcome to Tesla Web application Project.</h1>
+<h1 align="center">Welcome to Electrify Africa Web application Project.</h1>
 <h1 align="center">We are developing and supporting quality Software Solutions to millions of clients globally.
 	           We are raising billionaires IT professionals accross the nations of the World.
 	We offer Training for DevOps with Linux, Kubernetes and Cloud, equipping IT Engineers for best performance.
-        Landmark Technologies, the Pride of Africa.
+        Electrify Africa, the Pride of Africa.
 	Class36 DevOps MasterClass will start on April 13, 2024.
         Please invite all your contacts and friends for this life changing course.
 </h1>
@@ -38,10 +38,10 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 		<img src="images/mylandmarklogo.png" alt="" width="150">
 	</span>
 	<span style="font-weight: bold;">
-                Landmark Technology, 
+                Electrify Africa, 
 		Toronto, Canada
-		+1 437 215 2483,
-		mylandmarktech@gmail.com
+		+1 438 866 7700,
+		electrifyafrica@gmail.com
 		<br>
 		<a href="mailto:mylandmarktech@gmail.com">Mail to Landmark Technologies</a>
 	</span>
@@ -50,7 +50,7 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 	<p> Service : <a href="services/employee/getEmployeeDetails">Get Employee Details </p>
 <hr>
 <hr>
-<p align=center> Landmark Technologies - Consultant, Training and Software Development</p>
+<p align=center> Electrify Africa - Consultant, Training and Software Development</p>
 <p align=center><small>Copyrights 2021 by <a href="http://mylandmarktech.com/">Landmark Technologies</a> </small></p>
 
 </body>
