@@ -51,7 +51,7 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 <hr>
 <hr>
 <p align=center> Electrify Africa - Consultant, Training and Software Development</p>
-<p align=center><small>Copyrights 2021 by <a href="http://mylandmarktech.com/">Electrify Africa</a> </small></p>
+<p align=center><small>Copyrights 2021 by <a href="http://electrifyfutureafrica.com/">Electrify Africa</a> </small></p>
 
 </body>
 </html>
