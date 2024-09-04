@@ -43,7 +43,7 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 		+1 438 866 7700,
 		electrifyafrica@gmail.com
 		<br>
-		<a href="mailto:mylandmarktech@gmail.com">Mail to Landmark Technologies</a>
+		<a href="mailto:mylandmarktech@gmail.com">Mail to Electrify Africa</a>
 	</span>
 </div>
 <hr>
